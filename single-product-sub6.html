@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rice and Gas Retailer</title>
+    <link
+      rel="icon"
+      href="image/White and Brown Elegant Simple Boba Drink Logo.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section id="header">
+      <a href="#"><img src="image/Lor_s Logo.png" class="logo" alt="logo" /></a>
+        <ul id="navbar">
+          <li><a href="index.html">HOME</a></li>
+          <li><a class="active" href="shop.html">SHOP</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li id="lg-bag">
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+          <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content"></div>
+
+          <!-- total -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">₱0</div>
+          </div>
+          <!-- buy button -->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!-- close cart -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-outdent"></i>
+      </div>
+    </section>
+
+    <!-- PRODUCT DETAILS -->
+    <section id="prodetails" class="section-p1">
+      <div class="single-pro-image">
+        <img src="image/products/f8.jpg" width="100%" id="MainImg" alt="" />
+      </div>
+
+      <div class="single-pro-details">
+        <h4>Petron</h4>
+        <h2>petron Gasul 22kg</h2>
+        <h2>Php 1,870.00</h2>
+        <h4>Product Details</h4>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          exercitationem cupiditate voluptatibus saepe. Fuga, quis in eaque sed
+          soluta ea sint accusamus asperiores numquam ipsam odio exercitationem
+          cupiditate et explicabo ullam obcaecati tenetur quos vero porro optio
+          dolorum quasi magnam. Tempora, iure modi, cumque qui nostrum minus
+          adipisci ducimus amet, quos vitae ipsa distinctio nesciunt ab numquam
+          corporis sequi odio error! Iusto nostrum, ipsa itaque cum doloremque
+          accusamus quam aperiam?</span
+        >
+      </div>
+    </section>
+
+    <!-- NEW ARRIVALS -->
+    <section id="product1" class="section-p1">
+      <h2>Related Products</h2>
+      <p>products you may Like</p>
+      <div class="pro-container">
+        <div
+          class="pro"
+          onclick="window.location.href='single-product-sub.html'"
+        >
+          <img src="image/products/f2.jpg" alt="product-1" />
+          <div class="des">
+            <span>SEMI-LAON</span>
+            <h5>Buco Pandan Premium Rice 5kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4>₱200.00</h4>
+          </div>
+          <a class="cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='special-product.html'">
+          <img src="image/products/n1.jpg" alt="product-1" />
+          <div class="des">
+            <span>WELL MILLED</span>
+            <h5>Farmer's Choice 5kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4>₱350.00</h4>
+          </div>
+          <a class="cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div
+          class="pro"
+          onclick="window.location.href='single-product-sub3.html'"
+        >
+          <img src="image/products/f5.jpg" alt="product-1" />
+          <div class="des">
+            <span>PETRON 2.7KG</span>
+            <h5>Petron Gasul 2.7kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4>Out of Stock</h4>
+          </div>
+          <a class="cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+        <div class="pro" onclick="window.location.href='special-product2.html'">
+          <img src="image/products/n3.jpg" alt="product-1" />
+          <div class="des">
+            <span>JASPONICA</span>
+            <h5>Doña Maria 10kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4>₱990.00</h4>
+          </div>
+          <a class="cart" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign up for News Letter</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail Address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="image/Lor_s Logo.png" alt="logo" />
+        <p>* On selected areas</p>
+        <br />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>665 San Roque, Paombong, Bulacan</p>
+        <p><strong>Phone: </strong>09050776994</p>
+        <p><strong>Hours: </strong>08:00 - 18:00, Daily</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-pinterest' ></i>
+            <i class='bx bxl-youtube' ></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install</h4>
+        <p>From App Store or Google Play Store</p>
+        <div class="row">
+          <img src="image/pay/app.jpg" alt="" />
+          <img src="image/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="image/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2022, Lor Rice and Gas E-commerce Website</p>
+      </div>
+    </footer>
+
+    <script>
+      var MainImg = document.getElementById("MainImg");
+      var smallimg = document.getElementsByClassName("small-img");
+
+      smallimg[0].onclick = function () {
+        MainImg.src = smallimg[0].src;
+      };
+      smallimg[1].onclick = function () {
+        MainImg.src = smallimg[1].src;
+      };
+      smallimg[2].onclick = function () {
+        MainImg.src = smallimg[2].src;
+      };
+      smallimg[3].onclick = function () {
+        MainImg.src = smallimg[3].src;
+      };
+    </script>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

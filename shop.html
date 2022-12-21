@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="icon"
+      href="image/White and Brown Elegant Simple Boba Drink Logo.png"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section id="header">
+      <a href="#"><img src="image/Lor_s Logo.png" class="logo" alt="logo" /></a>
+        <ul id="navbar">
+          <li><a href="index.html">HOME</a></li>
+          <li><a class="active" href="shop.html">SHOP</a></li>
+          <li><a href="about.html">ABOUT US</a></li>
+          <li><a href="contact.html">CONTACT US</a></li>
+          <li id="lg-bag">
+            <i class="bx bx-shopping-bag" id="cart-icon"></i>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></a>
+          <div class="cart">
+          <h2 class="cart-title">Your Cart</h2>
+          <div class="cart-content"></div>
+
+          <!-- total -->
+          <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">₱0</div>
+          </div>
+          <!-- buy button -->
+          <button type="button" class="btn-buy">Buy Now</button>
+          <!-- close cart -->
+          <i class="bx bx-x" id="close-cart"></i>
+        </div>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fa-solid fa-outdent"></i>
+      </div>
+    </section>
+    
+    <!-- COVER PICTURE -->
+    <section id="page-header">
+      <h2>LOR's Rice and Gas</h2>
+      <p>Premium Rice and Petron Gasul</p>
+    </section>
+
+    <!-- shop -->
+    <section id="product1" class="shop container section-p1">
+      <h2 class="section-title">Shop Products</h2>
+      <!-- Content -->
+      <div class="shop-content">
+        <div class="pro product-box">
+          <a href="single-product.html"><img src="image/products/f1.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">Denorado</span>
+            <h5>Alliah Premium Rice 25kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱1250.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub.html"><img src="image/products/f2.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">Semi-laon</span>
+            <h5>Buco Pandan Premium Rice 5kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱200.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub1.html"><img src="image/products/f3.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">Malagkit</span>
+            <h5>Trisha Premium Quality Rice 25kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱1100.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub2.html"><img src="image/products/f4.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">SINANDOMENG</span>
+            <h5>Island Premium Rice 25kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱925.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub3.html"><img src="image/products/f5.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">PETRON 2.7kg</span>
+            <h5>Petron Gasul 2.7kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">OUT OF STOCK</h4>
+          </div>
+          <i class="bx bxs-cart stock cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub4.html"><img src="image/products/f6.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">PETRON 7kg</span>
+            <h5>Petron Gasul 7kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱611.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub5.html"><img src="image/products/f7.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">PETRON 11kg</span>
+            <h5>Petron Gasul 11kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱935.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="single-product-sub6.html"><img src="image/products/f8.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">PETRON 22kg</span>
+            <h5>petron Gasul 22kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱1870.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+         <div class="pro product-box">
+          <a href="special-product.html"><img src="image/products/n1.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">Well Milled</span>
+            <h5>Farmer's Choice 5kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱350.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+        <div class="pro product-box">
+          <a href="special-product1.html"><img src="image/products/n2.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">Long Grain</span>
+            <h5>Farmer's Choice 5kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱380.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+        <div class="pro product-box">
+          <a href="special-product2.html"><img src="image/products/n3.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">JASPONICA</span>
+            <h5>Doña Maria 10kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱990.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+        <div class="pro product-box">
+          <a href="special-product3.html"><img src="image/products/n4.jpg" alt="product-1" class="product-img"/></a>
+          <div class="des">
+            <span class="product-title">Super Angelica</span>
+            <h5>Magnolia Premium Rice 25kg</h5>
+            <div class="star">
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+              <i class='bx bxs-star'></i>
+            </div>
+            <h4 class="price">₱1300.00</h4>
+          </div>
+          <i class="bx bxs-cart add-cart cart-1"></i>
+        </div>
+
+      </div>
+      
+      
+    </section>
+
+    <!-- PIGNATION -->
+    <section id="pignation" class="section-p1">
+      <a href="#">1</a>
+      <a href="#">2</a>
+      <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
+    </section>
+
+    <!-- NEWSLETTER -->
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign up for News Letter</h4>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your E-mail Address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="image/Lor_s Logo.png" alt="logo" />
+        <p>* On selected areas</p>
+        <br />
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>665 San Roque, Paombong, Bulacan</p>
+        <p><strong>Phone: </strong>09050776994</p>
+        <p><strong>Hours: </strong>08:00 - 18:00, Daily</p>
+        <div class="follow">
+          <h4>Follow Us</h4>
+          <div class="icon">
+            <i class='bx bxl-facebook-circle'></i>
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-instagram'></i>
+            <i class='bx bxl-pinterest' ></i>
+            <i class='bx bxl-youtube' ></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery Information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and Condition</a>
+        <a href="#">Contact Us</a>
+      </div>
+      <div class="col">
+        <h4>My Account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My Wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+
+      <div class="col install">
+        <h4>Install</h4>
+        <p>From App Store or Google Play Store</p>
+        <div class="row">
+          <img src="image/pay/app.jpg" alt="" />
+          <img src="image/pay/play.jpg" alt="" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="image/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2022, Lor Rice and Gas E-commerce Website</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
